@@ -1,4 +1,4 @@
-const choices = ['Stone', 'Paper', 'Scissors'];
+const choices = ['Rock', 'Paper', 'Scissors'];
 const playerChoiceDisplay = document.getElementById('player-choice');
 const computerChoiceDisplay = document.getElementById('computer-choice');
 const resultDisplay = document.getElementById('result');
@@ -24,8 +24,8 @@ function getResult(player, computer) {
     if (player === computer) {
         return "It's a draw! 😐";
     } else if (
-        (player === 'Stone' && computer === 'Scissors') ||
-        (player === 'Paper' && computer === 'Stone') ||
+        (player === 'Rock' && computer === 'Scissors') ||
+        (player === 'Paper' && computer === 'Rock') ||
         (player === 'Scissors' && computer === 'Paper')
     ) {
         return "You win! 🤩";
@@ -33,3 +33,4 @@ function getResult(player, computer) {
         return "You lose! 😭";
     }
 }
+
