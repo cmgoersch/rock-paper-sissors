@@ -63,6 +63,15 @@ h1 {
     
 }
 
+.choices .choice img.rock {
+    width: 60px; /* Setze die Breite */
+    height: auto; /* Halte das Seitenverhältnis */
+}
+
+.choice:hover img.rock {
+    transform: none; /* Verhindere Skalierung für Rock */
+}
+
 .choice:hover {
     transform: scale(1.4);
     /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); */
