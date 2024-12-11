@@ -64,12 +64,12 @@ h1 {
 }
 
 .choices .choice img.rock {
-    width: 60px; /* Setze die Breite */
-    height: auto; /* Halte das Seitenverhältnis */
+    width: 75px; /* Setze die Breite */
+    height: auto;
 }
 
 .choice:hover img.rock {
-    transform: none; /* Verhindere Skalierung für Rock */
+    transform: none;
 }
 
 .choice:hover {
